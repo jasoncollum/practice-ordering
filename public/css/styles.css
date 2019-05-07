@@ -1,0 +1,61 @@
+body {
+    background-color: orange;
+}
+
+ul {
+    list-style-type: none;
+    align-self: center;
+    margin-right: 10px;
+}
+
+a {
+    color: black;
+}
+
+li {
+    margin: 0 5px;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.nav-div {
+    background-color: lightgrey;
+    border: .5px solid grey;
+}
+
+.company-name {
+    align-self: center;
+    margin-left: 10px;
+}
+
+.card,
+.reviews-div {
+    max-width: 350px;
+    border: 1px solid grey;
+    text-align: center;
+    background: lightgrey;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card img {
+    width: 225px;
+    margin: 10px;
+}
+
+button {
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+}
+
